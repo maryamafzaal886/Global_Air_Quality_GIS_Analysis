@@ -1,60 +1,51 @@
 
-# 🌍 Global Air Pollution Monitoring & GIS Analysis
+# 🌍 Global Air Quality Assessment & Geospatial Analysis
 
 ## 📌 Project Overview
 
-Air pollution is a major environmental concern affecting human health and environmental sustainability. This project explores global air quality conditions using the Air Quality Index (AQI).
+This project focuses on analyzing global air quality conditions using country-wise Air Quality Index (AQI) data.
 
-The study focuses on examining pollution levels across different countries, identifying geographical variations, and understanding changes in air quality over time using GIS and data analysis techniques.
+The work is structured as a client-oriented GIS project, with an emphasis on organizing environmental data, examining geographical pollution patterns, and presenting findings through spatial analysis and data visualization.
 
-## 🎯 Project Objectives
+## 🎯 Client Requirements
 
-- Analyze air quality conditions across different countries.
-- Compare AQI levels to identify pollution differences.
-- Explore geographical patterns of air pollution.
-- Examine daily and seasonal changes in AQI.
-- Identify countries experiencing higher pollution levels.
-- Develop meaningful visualizations for environmental monitoring.
+The project objectives include:
 
-## 📊 Dataset Information
+- Assess air quality conditions across different countries.
+- Examine variations in AQI values.
+- Identify geographical pollution patterns.
+- Analyze changes in air quality over time.
+- Prepare informative GIS-based maps and visualizations.
+- Present environmental data in an organized format.
 
-**Dataset Name:** Global Daily Air Quality Records
+## 👩‍💻 My Role & Responsibilities
 
-**Source:** Kaggle
+My responsibilities for this project include:
 
-**Dataset Link:**
+- Acquiring and organizing the AQI dataset.
+- Reviewing and preprocessing environmental data.
+- Performing country-wise AQI analysis.
+- Preparing geospatial datasets for mapping.
+- Developing thematic maps using GIS tools.
+- Creating charts and visual representations.
+- Documenting analytical methods and findings.
+
+## 📊 Dataset & Data Source
+
+The analysis uses a publicly available country-wise daily AQI dataset.
+
+Original Source:
 https://www.kaggle.com/datasets/azminetoushikwasi/aqi-air-quality-index-scheduled-daily-update
 
-The dataset contains country-wise daily air quality observations.
+Dataset Creator: Azmine Toushik Wasi
 
-### Main Attributes
+## 🗺️ GIS Analysis
 
-| Attribute | Description |
-|---|---|
-| Date | Date of AQI observation |
-| Country | Country name |
-| Status | Air quality category |
-| AQI Value | Numerical pollution index |
-
-**Time Period:** July 2022 – November 2026 (as shown in the dataset description).
-
-## 🗺️ GIS & Analytical Methodology
-
-1. Data Collection
-2. Data Cleaning and Preprocessing
-3. Country-wise AQI Comparison
-4. Daily and Seasonal Trend Analysis
-5. Geospatial Data Integration
-6. AQI Distribution Mapping
-7. Environmental Pattern Interpretation
-
-## 📈 Key Areas of Analysis
-
-- Global Air Quality Distribution
-- Country-wise Pollution Comparison
-- Temporal AQI Variations
-- Seasonal Pollution Patterns
-- Geospatial Pollution Hotspots
+- Country-level AQI distribution
+- Spatial comparison of pollution levels
+- Environmental pollution hotspot identification
+- Temporal air quality assessment
+- Thematic mapping
 
 ## 🛠️ Tools & Technologies
 
@@ -64,41 +55,19 @@ The dataset contains country-wise daily air quality observations.
 - Pandas
 - GeoPandas
 - Matplotlib
-- Jupyter Notebook
 - Microsoft Excel
 
-## 🌱 Expected Outcomes
+## 📦 Project Deliverables
 
-This project aims to provide a better understanding of global air pollution patterns through geographical visualization and statistical analysis.
+- Processed AQI dataset
+- Country-wise AQI analysis
+- GIS thematic maps
+- Environmental data visualizations
+- Project documentation
 
-It can help identify areas with comparatively poor air quality and support environmental awareness and further research.
+## 📚 Acknowledgement
 
-## 📁 Repository Structure
+The original AQI dataset is publicly available on Kaggle.
+Dataset ownership and original authorship remain with the respective creator.
 
-Global_Air_Quality_GIS_Analysis/
-│
-├── Dataset/
-│   └── data_date.csv
-│
-├── Maps/
-│
-├── Analysis/
-│
-├── Visualizations/
-│
-├── Notebooks/
-│
-└── README.md
-
-## 📚 Data Source & Acknowledgement
-
-The AQI dataset is obtained from Kaggle and is used for educational and analytical purposes.
-
-Original Dataset Author: Azmine Toushik Wasi
-
-## 👩‍💻 Project Domain
-
-Geographic Information Systems (GIS)
-Environmental Monitoring
-Geospatial Data Analysis
-Air Pollution Assessment
+This repository documents my own analysis and contributions based on the referenced dataset.
